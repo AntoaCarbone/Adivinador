@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>Adivinar</title>
+    <link rel="stylesheet" href="Adivinar.css">
+</head>
+<body>
+
+    <form>
+        <div class="formulario">
+            <h1>Adivinar</h1>
+            <div class="input-container">
+                <input type="number" name="number" id="number" min="1" max="10" placeholder="Ingresa un número del 1 al 10" required>
+                <button id="enviar" type="button" onclick="validar()">Enviar</button>
+            </div>
+            <p id="resultado"></p>
+            <button type="button" id="reiniciarJuego" style="display: none;" onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </form>
+    
+
+    <script src="./Adivinar.js"></script>
+</body>
+</html>
